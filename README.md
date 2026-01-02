@@ -22,54 +22,7 @@ Key highlights:
 
 ## 📂 Repository Structure
 
-# Spatial Crime Prediction with Machine Learning  
-### Asansol–Durgapur Industrial Belt (India)
-
-This repository contains the complete and reproducible Python implementation used in the research paper:
-
-**“Spatial Crime Prediction in the Asansol–Durgapur Industrial Belt Using Interpretable Machine Learning Models.”**
-
----
-
-## 📌 Overview
-
-The study focuses on predicting police-station–level crime counts in the Asansol–Durgapur industrial region using interpretable ensemble machine learning models.
-
-Key highlights:
-- Random Forest used as the primary predictive model
-- XGBoost used as a comparative baseline
-- Feature importance analysis for interpretability
-- 5-fold cross-validation with RMSE as evaluation metric
-- Emphasis on industrial intensity as a dominant crime predictor
-
----
-
-## 📂 Repository Structure
-
-# Spatial Crime Prediction with Machine Learning  
-### Asansol–Durgapur Industrial Belt (India)
-
-This repository contains the complete and reproducible Python implementation used in the research paper:
-
-**“Spatial Crime Prediction in the Asansol–Durgapur Industrial Belt Using Interpretable Machine Learning Models.”**
-
----
-
-## 📌 Overview
-
-The study focuses on predicting police-station–level crime counts in the Asansol–Durgapur industrial region using interpretable ensemble machine learning models.
-
-Key highlights:
-- Random Forest used as the primary predictive model
-- XGBoost used as a comparative baseline
-- Feature importance analysis for interpretability
-- 5-fold cross-validation with RMSE as evaluation metric
-- Emphasis on industrial intensity as a dominant crime predictor
-
----
-
-## 📂 Repository Structure
-
+```powershell
 Crime-Prediction-with-ML/
 │
 ├── data/
@@ -86,6 +39,7 @@ Crime-Prediction-with-ML/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ---
 
@@ -110,13 +64,16 @@ pip install -r requirements.txt
 
 Clone the repository:
 
+```bash
 git clone https://github.com/Sagnik7255/Crime-Prediction-with-ML.git
 cd Crime-Prediction-with-ML
-
+```
 
 Run the main experiment script:
 
+```bash
 python src/crime_prediction_rf_xgb.py
+```
 
 ---
 
@@ -162,6 +119,6 @@ A license may be added depending on publication requirements.
 
 ## ✉️ Contact
 
-Author: Sagnik Chakrabarti
-Contact address: csagnik752@gmail.com
+Author: Sagnik Chakrabarti.
+Contact address: csagnik752@gmail.com.
 For questions related to the code or study, please open an issue or contact via GitHub.
